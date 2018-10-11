@@ -1,39 +1,10 @@
 import React, {Component} from 'react';
-import { render } from 'react-dom';
-import MySection from './MySection';
-import MyComponent from './MyComponent';
-import MyState from './State';
-import ChangeState from './Change';
-import MyButton from './Default';
-import Simple from './Simple';
-import MyContainer from './MyContainer';
-import MyList from './MyList';
+import ReactDOM from 'react-dom';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
 
-
-
-
-	
-
-
-
-	render((
-
-
-
-		<MyList />
-
-
-	),document.getElementById('root')
-
-);
-
-
-
-
-
-
-
-//setTimeout(()=>{Changed.setState({heading:'this is awesomely',content:'Done'})},4000);
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
 
 
