@@ -7,15 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 
 
-ReactDOM.render(
-
-	<CardList robots={robots}/>
-
-	
-
-
-
-	, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
 
