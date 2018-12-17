@@ -12,16 +12,16 @@ const Card=({name,email,id})=>{
 
 		   <img src={`https://robohash.org/${id}`} alt={'robots'}/>
 
-		   <div>
+			   <div>
 
-		      <h1>{name}</h1>
-
-
-
-		      <p>{email}</p>
+			      <h1>{name}</h1>
 
 
-		   </div>
+
+			      <p>{email}</p>
+
+
+			   </div>
 
 
 
